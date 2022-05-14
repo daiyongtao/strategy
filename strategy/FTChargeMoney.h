@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 收费（默认为正常收费）
 /// @param money 原价
-/// return 真实应该收取的费用（当前价）
+/// @return 真实应该收取的费用（当前价）
 - (double)chargeMoney:(double)money;
 
 @end

@@ -9,19 +9,20 @@
 #import <Foundation/Foundation.h>
 
 #import "FTChargeMoney.h"
-#import "FTChargeMoneyFactory.h"
+#import "FTChargeContext.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        FTChargeMoney *chargeMoney1 = [FTChargeMoneyFactory createChargeMoney:FTChargeNormalType];
-        double result1 = [chargeMoney1 chargeMoney:689];
+        FTChargeContext *chargeContext1 = [FTChargeContext contextWithChargeMoneyType:FTChargeNormalType];
+        double result1 = [chargeContext1 getResult:689];
         
-        FTChargeMoney *chargeMoney2 = [FTChargeMoneyFactory createChargeMoney:FTChargeRebateType];
-        double result2 = [chargeMoney2 chargeMoney:689];
+        FTChargeContext *chargeContext2 = [FTChargeContext contextWithChargeMoneyType:FTChargeRebateType];
+        double result2 = [chargeContext2 getResult:689];
         
-        FTChargeMoney *chargeMoney3 = [FTChargeMoneyFactory createChargeMoney:FTChargeReturnType];
-        double result3 = [chargeMoney3 chargeMoney:689];
+        FTChargeContext *chargeContext3 = [FTChargeContext contextWithChargeMoneyType:FTChargeReturnType];
+        double result3 = [chargeContext3 getResult:689];
+        
         NSLog(@"\n正常收费：%.2f \n打八折：%.2f \n满300-100返利：%.2f", result1, result2, result3);
     }
     return 0;

@@ -15,7 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 初始化方法
 /// @param moneyCondition 返利条件（满300 - 100），moneyCondition就是300
 /// @param moneyReturn 返利条件（满300 - 100），moneyReturn就是100
-+ (FTChargeMoneyReturn *)initWithMoneyCondition:(double)moneyCondition moneyReturn:(double)moneyReturn;
+/// @return 返利收费实例
++ (FTChargeMoneyReturn *)chargeMoneyWithMoneyCondition:(double)moneyCondition moneyReturn:(double)moneyReturn;
 
 @end
 

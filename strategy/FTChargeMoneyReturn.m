@@ -19,7 +19,7 @@
 
 @implementation FTChargeMoneyReturn
 
-+ (FTChargeMoneyReturn *)initWithMoneyCondition:(double)moneyCondition moneyReturn:(double)moneyReturn {
++ (FTChargeMoneyReturn *)chargeMoneyWithMoneyCondition:(double)moneyCondition moneyReturn:(double)moneyReturn {
     return [[self alloc] initWithMoneyCondition:moneyCondition moneyReturn:moneyReturn];
 }
 

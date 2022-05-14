@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 初始化方法
 /// @param rebate 折扣
-+ (FTChargeMoneyRebate *)initWithRebate:(double)rebate;
+/// @return 折扣收费实例
++ (FTChargeMoneyRebate *)chargeMoneyWithRebate:(double)rebate;
 
 @end
 

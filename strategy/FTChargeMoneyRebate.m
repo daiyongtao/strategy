@@ -16,7 +16,7 @@
 
 @implementation FTChargeMoneyRebate
 
-+ (FTChargeMoneyRebate *)initWithRebate:(double)rebate {
++ (FTChargeMoneyRebate *)chargeMoneyWithRebate:(double)rebate {
     return [[self alloc] initWithRebate:rebate];
 }
 
