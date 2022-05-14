@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4CB4B834282FF080005AF714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4B833282FF080005AF714 /* main.m */; };
+		4CB4B845282FF2ED005AF714 /* FTChargeMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4B83C282FF2ED005AF714 /* FTChargeMoney.m */; };
+		4CB4B846282FF2ED005AF714 /* FTChargeMoneyReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4B83E282FF2ED005AF714 /* FTChargeMoneyReturn.m */; };
+		4CB4B847282FF2ED005AF714 /* FTChargeMoneyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4B840282FF2ED005AF714 /* FTChargeMoneyFactory.m */; };
+		4CB4B848282FF2ED005AF714 /* FTChargeMoneyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4B844282FF2ED005AF714 /* FTChargeMoneyRebate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		4CB4B830282FF080005AF714 /* strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = strategy; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB4B833282FF080005AF714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CB4B83C282FF2ED005AF714 /* FTChargeMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTChargeMoney.m; sourceTree = "<group>"; };
+		4CB4B83D282FF2ED005AF714 /* FTChargeMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTChargeMoney.h; sourceTree = "<group>"; };
+		4CB4B83E282FF2ED005AF714 /* FTChargeMoneyReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTChargeMoneyReturn.m; sourceTree = "<group>"; };
+		4CB4B83F282FF2ED005AF714 /* FTChargeMoneyFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTChargeMoneyFactory.h; sourceTree = "<group>"; };
+		4CB4B840282FF2ED005AF714 /* FTChargeMoneyFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTChargeMoneyFactory.m; sourceTree = "<group>"; };
+		4CB4B841282FF2ED005AF714 /* FTChargeMoneyReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTChargeMoneyReturn.h; sourceTree = "<group>"; };
+		4CB4B842282FF2ED005AF714 /* FTChargeMoneyRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTChargeMoneyRebate.h; sourceTree = "<group>"; };
+		4CB4B843282FF2ED005AF714 /* FTEnumDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTEnumDefine.h; sourceTree = "<group>"; };
+		4CB4B844282FF2ED005AF714 /* FTChargeMoneyRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTChargeMoneyRebate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +70,15 @@
 		4CB4B832282FF080005AF714 /* strategy */ = {
 			isa = PBXGroup;
 			children = (
+				4CB4B83D282FF2ED005AF714 /* FTChargeMoney.h */,
+				4CB4B83C282FF2ED005AF714 /* FTChargeMoney.m */,
+				4CB4B83F282FF2ED005AF714 /* FTChargeMoneyFactory.h */,
+				4CB4B840282FF2ED005AF714 /* FTChargeMoneyFactory.m */,
+				4CB4B842282FF2ED005AF714 /* FTChargeMoneyRebate.h */,
+				4CB4B844282FF2ED005AF714 /* FTChargeMoneyRebate.m */,
+				4CB4B841282FF2ED005AF714 /* FTChargeMoneyReturn.h */,
+				4CB4B83E282FF2ED005AF714 /* FTChargeMoneyReturn.m */,
+				4CB4B843282FF2ED005AF714 /* FTEnumDefine.h */,
 				4CB4B833282FF080005AF714 /* main.m */,
 			);
 			path = strategy;
@@ -118,6 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB4B845282FF2ED005AF714 /* FTChargeMoney.m in Sources */,
+				4CB4B847282FF2ED005AF714 /* FTChargeMoneyFactory.m in Sources */,
+				4CB4B848282FF2ED005AF714 /* FTChargeMoneyRebate.m in Sources */,
+				4CB4B846282FF2ED005AF714 /* FTChargeMoneyReturn.m in Sources */,
 				4CB4B834282FF080005AF714 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
